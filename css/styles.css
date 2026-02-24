@@ -109,7 +109,6 @@ address {
 }
 
 .header-container {
-    min-height: 56px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -842,10 +841,6 @@ address {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-    }
-
-    .header-container {
-        min-height: 72px;
     }
 
     .menu-open-btn {
