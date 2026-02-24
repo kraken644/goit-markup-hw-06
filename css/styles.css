@@ -121,6 +121,7 @@ address {
 
 .site-name {
     display: block;
+    padding: 16px 0;
 }
 
 .navigation,
