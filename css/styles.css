@@ -132,31 +132,8 @@ address {
     justify-content: center;
 }
 
-.menu-open-icon,
-.menu-open-icon::before,
-.menu-open-icon::after {
-    content: "";
-    width: 24px;
-    height: 2px;
-    border-radius: 1px;
-    background-color: #2f2f37;
-    display: block;
-}
-
 .menu-open-icon {
-    position: relative;
-}
-
-.menu-open-icon::before {
-    position: absolute;
-    top: -7px;
-    left: 0;
-}
-
-.menu-open-icon::after {
-    position: absolute;
-    top: 7px;
-    left: 0;
+    fill: #2f2f37;
 }
 
 .section-main-title {
@@ -988,9 +965,6 @@ address {
         padding: 0 15px;
     }
 
-    .header-container {
-        justify-content: flex-start;
-    }
 
     .contact-container {
         flex-direction: row;
