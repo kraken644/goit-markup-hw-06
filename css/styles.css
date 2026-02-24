@@ -593,18 +593,20 @@ address {
 
 .mobile-menu-contact {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #434455;
 }
 
 .mobile-menu-contact-phone {
-    font-size: 36px;
-    line-height: 1.11;
+    font-weight: 700;
+    color: #4d5ae5;
 }
 
 .mobile-menu-contact-email {
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 500;
+    color: #434455;
 }
 
 .mobile-menu-social-list {
