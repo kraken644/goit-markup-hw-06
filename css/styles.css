@@ -1,3 +1,5 @@
+/* #region main styles */
+
 * {
     box-sizing: border-box;
 }
@@ -47,6 +49,7 @@ address {
     font-style: normal;
 }
 
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -60,12 +63,17 @@ address {
     overflow: hidden;
 }
 
+
+
 .container {
     width: 100%;
     max-width: 320px;
     margin: 0 auto;
     padding: 0 16px;
 }
+/* #endregion main styles */
+
+/* #region header */
 
 .name-web {
     font-family: "Raleway", sans-serif;
@@ -136,6 +144,10 @@ address {
     fill: #2f2f37;
 }
 
+/* #endregion header */
+
+/* #region main title */
+
 .section-main-title {
     max-width: 320px;
     margin: 0 auto;
@@ -190,6 +202,10 @@ address {
     background-color: #404bbf;
 }
 
+/* #endregion main title */
+
+/* #region features */
+
 .section-features-container {
     padding: 96px 0;
 }
@@ -225,6 +241,10 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/* #endregion features */
+
+/* #region team */
 
 .section-team {
     background-color: #f4f4fd;
@@ -306,6 +326,10 @@ address {
     background-color: #404bbf;
 }
 
+/* #endregion team */
+
+/* #region portfolio */
+
 .section-portfolio-container {
     padding: 96px 0;
 }
@@ -320,6 +344,7 @@ address {
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
+    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -370,6 +395,10 @@ address {
 .list-text-portfolio {
     color: #434455;
 }
+
+/* #endregion portfolio */
+
+/* #region footer */
 
 .footer {
     padding: 96px 0;
@@ -475,6 +504,10 @@ address {
     fill: #ffffff;
 }
 
+/* #endregion footer */
+
+/* #region mobile menu */
+
 .mobile-menu {
     position: fixed;
     inset: 0;
@@ -572,6 +605,10 @@ address {
 .mobile-menu-social-link:focus {
     background-color: #404bbf;
 }
+
+/* #endregion mobile menu */
+
+/* #region backdrop */
 
 .backdrop {
     position: fixed;
@@ -784,6 +821,10 @@ address {
     background-color: #404bbf;
 }
 
+/* #endregion backdrop */
+
+/* #region tablet */
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -936,10 +977,6 @@ address {
         width: 264px;
     }
 
-    .mobile-menu {
-        display: none;
-    }
-
     .modal {
         padding: 72px 24px 24px;
     }
@@ -958,6 +995,10 @@ address {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-tablet@2x.jpg");
     }
 }
+
+/* #endregion tablet */
+
+/* #region desktop */
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -1035,6 +1076,11 @@ address {
 
     .list-portfolio {
         width: calc((100% - 48px) / 3);
+        box-shadow: none;
+    }
+
+    .navigation {
+        margin-left: 76px;
     }
 
     .footer {
@@ -1063,3 +1109,4 @@ address {
     }
 }
 
+/* #endregion desktop */
