@@ -474,6 +474,9 @@ address {
 }
 
 .footer-subscribe-input::placeholder {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
     color: #ffffff;
 }
 
@@ -590,10 +593,18 @@ address {
 
 .mobile-menu-contact {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #404bbf;
+}
+
+.mobile-menu-contact-phone {
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.mobile-menu-contact-email {
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 .mobile-menu-social-list {
@@ -632,7 +643,8 @@ address {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: min(408px, calc(100% - 32px));
+    width: 288px;
+    max-width: 288px;
     min-height: 584px;
     border-radius: 4px;
     background-color: #fcfcfc;
@@ -978,6 +990,8 @@ address {
     }
 
     .modal {
+        width: 408px;
+        max-width: 408px;
         padding: 72px 24px 24px;
     }
 }
